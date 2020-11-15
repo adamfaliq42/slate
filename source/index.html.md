@@ -57,11 +57,11 @@ Your API keys carry many privileges, so be sure to keep them secure! Do not shar
 ```python
 import requests
 
-r = requests.get('https://api.executivesentiment.com//v1/stock/profile?symbol=AAPL')
+r = requests.get('https://api.executivesentiment.com/v1/stock/profile?symbol=AAPL')
 ```
 
 ```shell
-curl 'https://api.executivesentiment.com//v1/stock/profile?symbol=AAPL' \
+curl 'https://api.executivesentiment.com/v1/stock/profile?symbol=AAPL' \
   -H "YOUR API KEY"
 ```
 
@@ -108,11 +108,11 @@ description | Company business summary
 ```python
 import requests
 
-r = requests.get('https://api.executivesentiment.com//v1/stock/executive?symbol=AAPL')
+r = requests.get('https://api.executivesentiment.com/v1/stock/executive?symbol=AAPL')
 ```
 
 ```shell
-curl 'https://api.executivesentiment.com//v1/stock/executive?symbol=AAPL' \
+curl 'https://api.executivesentiment.com/v1/stock/executive?symbol=AAPL' \
   -H "YOUR API KEY"
 ```
 
@@ -179,11 +179,11 @@ currency | Compensation currency
 ```python
 import requests
 
-r = requests.get('https://api.executivesentiment.com//v1/executivesentiment?symbol=AAPL')
+r = requests.get('https://api.executivesentiment.com/v1/executivesentiment?symbol=AAPL')
 ```
 
 ```shell
-curl 'https://api.executivesentiment.com//v1/executivesentiment?symbol=AAPL' \
+curl 'https://api.executivesentiment.com/v1/executivesentiment?symbol=AAPL' \
   -H "YOUR API KEY"
 ```
 
@@ -243,11 +243,11 @@ executiveSentimentScore | Sentiment score for all statements. Positive score mea
 ```python
 import requests
 
-r = requests.get('https://api.executivesentiment.com//v1/reviews?symbol=AAPL')
+r = requests.get('https://api.executivesentiment.com/v1/reviews?symbol=AAPL')
 ```
 
 ```shell
-curl 'https://api.executivesentiment.com//v1/reviews?symbol=AAPL' \
+curl 'https://api.executivesentiment.com/v1/reviews?symbol=AAPL' \
   -H "YOUR API KEY"
 ```
 
@@ -303,11 +303,11 @@ cons | Array of negative reviews
 ```python
 import requests
 
-r = requests.get('https://api.executivesentiment.com//v1/reviews-sentiment?symbol=AAPL')
+r = requests.get('https://api.executivesentiment.com/v1/reviews-sentiment?symbol=AAPL')
 ```
 
 ```shell
-curl 'https://api.executivesentiment.com//v1/reviews-sentiment?symbol=AAPL' \
+curl 'https://api.executivesentiment.com/v1/reviews-sentiment?symbol=AAPL' \
   -H "YOUR API KEY"
 ```
 
