@@ -217,7 +217,7 @@ request('https://api.executivesentiment.com/api/v1/executivesentiment?symbol=AAP
 }
 ```
 
-Get general information of a company. 
+Get official statements by the company and sentiment analysis score on these statements. 
 
 ### Example
 
@@ -278,7 +278,7 @@ request('https://api.executivesentiment.com/api/v1/reviews?symbol=AAPL', { json:
 }
 ```
 
-Get general information of a company. 
+Get employees' reviews of the company.
 
 ### Example
 
@@ -330,7 +330,7 @@ request('https://api.executivesentiment.com/api/v1/reviews-sentiment?symbol=AAPL
 }
 ```
 
-Get general information of a company. 
+Get sentiment analysis score of reviews and news of the company.
 
 ### Example
 
